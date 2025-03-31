@@ -1,6 +1,6 @@
 {
   "name": "@a11ytools/aria-attributes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive utility library for working with ARIA attributes in JavaScript/TypeScript applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
