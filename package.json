@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "vitest",
+    "prepublishOnly": "npm run build",
+    "lint": "tsc --noEmit"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.8.2"
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
   }
 }
