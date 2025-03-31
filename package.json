@@ -1,19 +1,44 @@
 {
-  "name": "aria-attributes",
+  "name": "@a11ytools/aria-attributes",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A comprehensive utility library for working with ARIA attributes in JavaScript/TypeScript applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "vitest",
     "prepublishOnly": "npm run build",
     "lint": "tsc --noEmit"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "aria",
+    "accessibility",
+    "a11y",
+    "attributes",
+    "wai-aria",
+    "typescript"
+  ],
+  "author": "Venkata Janapareddy (https://github.com/venkatajanapareddy)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a11ytools/aria-attributes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a11ytools/aria-attributes/issues"
+  },
+  "homepage": "https://github.com/a11ytools/aria-attributes#readme",
   "devDependencies": {
     "@types/node": "^22.13.14",
     "typescript": "^5.8.2",
     "vitest": "^3.0.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
