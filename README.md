@@ -2,7 +2,6 @@
 
 [![CI/CD](https://github.com/a11ytools/aria-attributes/actions/workflows/main.yml/badge.svg)](https://github.com/a11ytools/aria-attributes/actions/workflows/main.yml)
 [![npm version](https://img.shields.io/npm/v/@a11y-tools/aria-attributes.svg)](https://www.npmjs.com/package/@a11y-tools/aria-attributes)
-[![npm downloads](https://img.shields.io/npm/dm/@a11y-tools/aria-attributes.svg)](https://www.npmjs.com/package/@a11y-tools/aria-attributes)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@a11y-tools/aria-attributes)](https://bundlephobia.com/package/@a11y-tools/aria-attributes)
 
