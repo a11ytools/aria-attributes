@@ -6,7 +6,7 @@ import {
 } from '../src/index';
 import { describe, it, expect } from 'vitest';
 
-describe('@a11ytools/aria-attributes', () => {
+describe('@a11y-tools/aria-attributes', () => {
   it('should return true for valid attributes', () => {
     expect(isValidAriaAttribute('aria-label')).toBe(true);
     expect(isValidAriaAttribute('aria-hidden')).toBe(true);

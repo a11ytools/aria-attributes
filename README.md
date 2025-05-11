@@ -1,11 +1,11 @@
-# @a11ytools/aria-attributes
+# @a11y-tools/aria-attributes
 
 A comprehensive utility library for working with ARIA attributes in JavaScript/TypeScript applications.
 
 ## Installation
 
 ```bash
-npm install @a11ytools/aria-attributes
+npm install @a11y-tools/aria-attributes
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ import {
   getAttributeData, 
   getAllAriaAttributes,
   ariaAttributes 
-} from '@a11ytools/aria-attributes';
+} from '@a11y-tools/aria-attributes';
 
 // Check if an attribute is valid
 isValidAriaAttribute('aria-label'); // true
